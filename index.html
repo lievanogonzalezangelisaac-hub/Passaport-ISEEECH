@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Security Headers & Policies -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    <meta http-equiv="Permissions-Policy" content="camera=(self), microphone=(), geolocation=(), payment=(), usb=(), accelerometer=(), gyroscope=(), magnetometer=(), display-capture=(), interest-cohort=()" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; media-src 'self' blob: data:; connect-src 'self' blob: data:; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self';" />
+
+    <!-- Document Title and Metadata -->
+    <title>Pasaporte de Aventuras y Sellos</title>
+    <meta name="description" content="Pasaporte digital interactivo en formato libro con páginas animadas, sellos digitales de actividades y flujo QR entre Guía y Viajante." />
+    <meta property="og:title" content="Pasaporte de Aventuras y Sellos" />
+    <meta property="og:description" content="Pasaporte digital interactivo en formato libro con páginas animadas, sellos digitales de actividades y flujo QR entre Guía y Viajante." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Security & Performance: Trusted External Fonts -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f59e0b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolygon points='16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-stone-900 text-stone-100 antialiased selection:bg-amber-500/30 selection:text-amber-200">
+    <noscript>
+      <div style="padding: 2rem; text-align: center; color: #f59e0b; background: #1c1917; font-family: sans-serif;">
+        Se requiere JavaScript habilitado para interactuar de forma segura con el Pasaporte de Aventuras.
+      </div>
+    </noscript>
+    <div id="root" role="main" aria-label="Pasaporte de Aventuras y Sellos"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

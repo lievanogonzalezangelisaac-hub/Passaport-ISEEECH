@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix Pasaporte de Aventuras y Sellos",
+  "description": "Pasaporte digital interactivo en formato libro con páginas animadas, sellos digitales de actividades y flujo QR entre Guía y Viajante.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
